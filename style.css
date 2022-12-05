@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   background: linear-gradient(70deg, rgb(255, 255, 0), rgb(222, 179, 100));
+}
+
+.heading{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 4rem;
+    font-weight: 200;
+}
+.container{
+    box-shadow: 5px 10px 15px rgb(255, 132, 0);
+    margin: 15px auto;
+    max-width: 1200px ;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background: linear-gradient(45deg, rgb(255, 132, 0), rgba(209, 165, 43, 0.788));
+}
+
+label{
+    color: white;
+}
+.converter{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.container input{
+    padding: 10px 12px;
+    
+    
+}
+.txt {
+    margin: 15px 36%;
+    font-size: 1.2rem;
+
+}
+
+.container h1{
+    margin: 15px ;
+    font-size: 3rem;
+    font-weight: 300;
+    color: white;
+
+}
+.input_feild{
+    border: none;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    width: 80%;
+}
+.input{
+    border: none;
+    border-radius: 25px;
+    padding: 12px 15px;
+    margin: 2rem;
+}
+.input_feild:focus,.input:focus{
+    outline: none;
+}
+#result{
+    color: white;
+    font-size: 2em;   
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+}
+input[type=submit]{
+    color: white;
+    background: rgb(255, 200, 0);
+    padding: 1rem 2rem;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-inline: 40%;
+    margin-top: 15px;
+    border: none;
+}
+@media screen and (max-width: 650px) {
+  
+    html{
+        font-size: 40%;
+    }
+  }
+  
